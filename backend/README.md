@@ -2,6 +2,9 @@
 
 ## Table of Contents <!-- omit in toc -->
 
+- [Ticket Structure](#ticket-structure)
+  - [Example](#example)
+
 ## Ticket Structure
 
 | Field       | Comment                                                                  |
