@@ -28,15 +28,18 @@ WIP
 ### Frontend
 
 - [ ] UI/UX Design
-- [ ] Decide which framework to use (if any at all)
+- [ ] Decide which framework to use (*if any at all*)
+  > ~~May use Svelte because I want to try it~~ Vue already has an integration with Meilisearch
 
 ### Backend
 
-- [ ] Create ER Model
+- [ ] Create Diagrams to better understand what this app should do
 - [ ] User Authentication
-  - [ ] Decide which DB to use
+  - [ ] Decide which DB to use (*Currently thinking about Firebase*)
 - [ ] CRUD
+  - [ ] API
 - [ ] Tag System
+- [ ] Search systems using [Meilisearch](https://www.meilisearch.com/)
 
 ## Want to contribute?
 
