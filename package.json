@@ -1,7 +1,12 @@
 {
+  "version": "0.0.1",
+  "scripts": {
+    "release": "standard-version"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "husky": "^8.0.2"
+    "husky": "^8.0.2",
+    "standard-version": "^9.5.0"
   }
 }
