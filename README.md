@@ -37,6 +37,8 @@ We will use Figma to design the UI/UX and Svelte to build it.
 #### Frontend Tasks
 
 - [ ] UI/UX Design
+- [ ] Config Vitest for unit testing
+- [ ] Config Playwright for browser testing
 - [x] ~~Decide which framework to use (*if any at all*)~~
 
 ### Backend
