@@ -24,11 +24,11 @@ WIP
 
 #### Tasks
 
-- [ ] Create CI/CD workflow
-  - [ ] Use commitlint
 - [ ] Make automatic CHANGELOG
   - [ ] Use conventional changelog
 - [x] ~~Create README, CONTRIBUTING, CODE_OF_CONDUCT and CHANGELOG~~
+- [x] ~~Create CI/CD workflow~~
+  - [x] ~~Use commitlint~~
 
 ### Frontend
 
