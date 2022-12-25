@@ -1,47 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
 
 :root {
-	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Poppins', monospace;
-	--color-bg-0: white;
-	--color-bg-1: white;
-	--color-bg-2: white;
-	--color-theme-1: #00A6ED;
-	--color-theme-2: #4075a6;
-	--color-text: rgba(0, 0, 0, 0.7);
-	--column-width: 42rem;
-	--column-margin-top: 4rem;
+	--color-bg-main: #F4F7F9;
+	--color-bg-dark: #24292C;
+	--color-bg-secondary: white;
+	--color-bg-card: #F8FBFC;
+	--border-color: #CEE0E8;
+	--accent-color-0: #00A6ED;
+	--color-text: #0C1116;
 	font-family: var(--font-mono);
 	color: var(--color-text);
 }
 
 body {
-	min-height: 100vh;
 	margin: 0;
-	background-attachment: fixed;
-	background-color: var(--color-bg-1);
+	min-height: 100vh;
+	background-color: var(--color-bg-main);
 	background-size: 100vw 100vh;
-	background-image: radial-gradient(
-			50% 50% at 50% 50%,
-			rgba(255, 255, 255, 0.75) 0%,
-			rgba(255, 255, 255, 0) 100%
-		),
-		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
-}
-
-h1,
-h2,
-p {
-	font-weight: 400;
-}
-
-p {
-	line-height: 1.5;
 }
 
 a {
-	color: var(--color-theme-1);
+	color: var(--accent-color-0);
 	text-decoration: none;
 }
 

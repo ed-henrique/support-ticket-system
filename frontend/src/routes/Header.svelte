@@ -32,7 +32,7 @@
 	.app-logo {
 		font-size: 1.2rem;
 		font-family: 'Gugi', cursive;
-		color: var(--color-theme-1);
+		color: var(--accent-color-0);
 	}
 
 	.corner {
@@ -53,8 +53,7 @@
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
-		background: var(--background);
-		--background: #24292C;
+		background: var(--color-bg-dark);
 	}
 
 	ul {
@@ -66,7 +65,7 @@
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-		background: var(--background);
+		background: var(--color-bg-dark);
 		background-size: contain;
 	}
 
@@ -76,8 +75,8 @@
 	}
 
 	li[aria-current='page'] a {
-		color: var(--color-theme-1);
-		text-decoration: underline var(--color-theme-1);
+		color: var(--accent-color-0);
+		text-decoration: underline var(--accent-color-0);
 	}
 
 	nav a {
@@ -85,7 +84,7 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 0.5rem;
-		color: var(--color-bg-2);
+		color: var(--color-bg-secondary);
 		font-weight: bold;
 		font-size: 0.8rem;
 		text-transform: uppercase;
@@ -95,10 +94,10 @@
 	}
 
 	span {
-		color: var(--color-bg-2);
+		color: var(--color-bg-secondary);
 	}
 
 	a:hover {
-		color: var(--color-theme-1);
+		color: var(--accent-color-0);
 	}
 </style>
