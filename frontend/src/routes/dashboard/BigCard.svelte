@@ -1,7 +1,10 @@
-<script lang="ts">
-    let cardName: string;
-    let accentColor: string;
-    let currentValue: number;
+<script>
+    /** @type {string} */
+    let cardName;
+    /** @type {string} */
+    let accentColor;
+    /** @type {number} */
+    let currentValue;
 
     export { cardName, accentColor, currentValue };
 </script>
