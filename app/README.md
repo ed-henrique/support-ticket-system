@@ -2,8 +2,22 @@
 
 ## Table of Contents <!-- omit in toc -->
 
+- [Route Structure](#route-structure)
 - [Ticket Structure](#ticket-structure)
   - [Example](#example)
+
+## Route Structure
+
+| Route                     | Status | Comment                   |
+| :-----------------------: | :----: | :------------------------ |
+| `/`                       | 🚧     | Homepage                  |
+| `/login`                  | ❌     | Log in page               |
+| `/signup`                 | ❌     | Sign up page              |
+| `/signup/forgot_password` | ❌     | Forgot Password page      |
+| `/dashboard`              | ❌     | Dashboard page            |
+| `/tickets`                | ❌     | Support tickets list page |
+| `/about`                  | 🚧     | About page                |
+| `/settings`               | ❌     | Settings page             |
 
 ## Ticket Structure
 
