@@ -14,9 +14,7 @@
 </svelte:head>
 
 <section>
-    <div class="dashboard-header">
-        <h1>Dashboard</h1>
-    </div>
+    <h1>Dashboard</h1>
 
     <div class="stats-cards">
         <Card cardName="In queue"      accentColor={yellow} currentValue={83}/>
@@ -25,10 +23,16 @@
         <Card cardName="Rejected"      accentColor={red}    currentValue={61}/>
     </div>
 
-    <BigCard cardName="General Stats" accentColor={green}  currentValue={5}/>
+    <BigCard cardName="General Stats"  accentColor={green}  currentValue={5}/>
 </section>
 
 <style>
+    h1 {
+        width: calc(60rem + 66px);
+        display: flex;
+        align-items: left;
+        justify-content: left;
+    }
     section {
         display: flex;
         align-items: center;

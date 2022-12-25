@@ -3,24 +3,28 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-column">
+<section>
 	<h1>About this app</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		This is a demo app for a support ticket system, used in a broad range of business to handle both
+		internal and external issues. 
 	</p>
+</section>
 
-	<pre>npm create svelte@latest</pre>
+<style>
+	h1, p {
+        width: calc(60rem + 66px);
+		display: flex;
+        align-items: left;
+        justify-content: left;
+	}
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
-	</p>
-</div>
+	section {
+		display: flex;
+        align-items: center;
+		justify-content: center;
+        flex-direction: column;
+        width: 100%;
+	}
+</style>
