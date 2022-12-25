@@ -14,7 +14,7 @@
 | `/login`                  | ❌     | Log in page               |
 | `/signup`                 | ❌     | Sign up page              |
 | `/signup/forgot_password` | ❌     | Forgot Password page      |
-| `/dashboard`              | ❌     | Dashboard page            |
+| `/dashboard`              | 🚧     | Dashboard page            |
 | `/tickets`                | ❌     | Support tickets list page |
 | `/about`                  | 🚧     | About page                |
 | `/settings`               | ❌     | Settings page             |
